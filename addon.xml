@@ -1,0 +1,12 @@
+<addon id="service.myaddon" version="0.0.1" name="SkippTV" provider-name="rjousse18">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.service" name="trakt.skipp_tv" library="addon.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">A service to skip intro's / outro's tv shows</summary>
+        <summary lang="fr">Un service pour skip les intros / vidéos de séries TV</summary>
+        <description lang="en">This service use the SkippTV open API</description>
+        <description lang="fr">Ce service utilise l'API ouverte de SkippTV</description>
+    </extension>
+</addon>
